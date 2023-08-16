@@ -1,11 +1,11 @@
 {
     "app_name": "my_cookiecutter_app",
     "app_description": "My first cookiecutter app",
-    "app_include_views": ["yes", "no"],
+    "app_include_views": false,
 
     "__prompts__": {
-        "app_name": "Name Django application in snake case:",
-        "app_description": "Description of the application:",
-        "app_include_views": "Should it include views/urls? [yes/no]:"
+        "app_name": "Name Django application in snake case",
+        "app_description": "Description of the application",
+        "app_include_views": "Should it include views/urls?"
     }
 }
