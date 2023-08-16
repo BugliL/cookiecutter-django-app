@@ -2,5 +2,6 @@ from __future__ import annotations
 
 # from django.urls import path, include
 
+# Create your paths here
 
 urlpatterns = []
