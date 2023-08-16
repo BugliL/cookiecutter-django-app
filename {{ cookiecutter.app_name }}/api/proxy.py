@@ -1,3 +1,4 @@
+from __future__ import annotations
 
 # Per ogni operazione eseguibile sui modelli di competenza dell'applicazione, questo modulo 
 # deve esporre un metodo da poter chiamare.

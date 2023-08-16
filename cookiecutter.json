@@ -1,3 +1,10 @@
 {
-    "app_name": "app"
+    "prompts": [
+        {
+          "name": "app_name",
+          "message": "Name Django application in snake case:",
+          "validate": "^(?!_)(?!.*__).*[a-z_][a-z0-9_]*$",
+          "default": "my_cookiecutter_app"
+        }
+      ]
 }
