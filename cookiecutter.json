@@ -1,9 +1,0 @@
-{
-    "app_name": "my_cookiecutter_app",
-    "app_description": "My first cookiecutter app",
-
-    "__prompts__": {
-        "app_name": "Name Django application in snake case:",
-        "app_description": "Description of the application:"
-    }
-}

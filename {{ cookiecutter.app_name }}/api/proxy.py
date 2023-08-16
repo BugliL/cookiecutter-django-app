@@ -1,8 +1,7 @@
 from __future__ import annotations
 
-# Per ogni operazione eseguibile sui modelli di competenza dell'applicazione, questo modulo 
-# deve esporre un metodo da poter chiamare.
+# This file should provide a method for each possible action/command on this application model.
 
-# Al fine di garantire la compatibilità in futuro, i metodi del modulo Proxy dovranno ritornare
-# strutture dati native di Python (Liste, Dizionari, ecc...) evitando categoricamente istanze 
-# di classi ORM o oggetti di altro tipo.
+# To ensure future compatibility, the methods of the Proxy module must return native Python data structures
+# (Lists, Dictionaries, etc...) avoiding categorically ORM class instances or objects of other types.
+# Types should be in the interfaces.py file. 
